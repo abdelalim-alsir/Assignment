@@ -1,0 +1,73 @@
+
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* name */
+  font-family: 'Lora', serif;
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+}
+#chicken{
+  background-color: #999999;
+  font-weight:bold;
+  overflow: hidden;
+}
+ h1{
+ margin-top: 0px;
+ margin-bottom: 30px;
+ font-weight:bold;
+}
+.container .row h3{
+  font-weight: bold;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #000000;
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    /* End Header */
+
+    /* Home Page */
+    /* End Home Page */
+}
+
+  /********** Small devices only **********/
+    @media (min-width: 768px) and (max-width: 991px) {
+    /* Home Page */
+    /* End Home Page */
+}
+
+  /********** Extra small devices only **********/
+    @media (max-width: 767px) {
+      /* Header */
+  #chicken{
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #999999;
+    color: #000000;
+  }
+  }
+}
